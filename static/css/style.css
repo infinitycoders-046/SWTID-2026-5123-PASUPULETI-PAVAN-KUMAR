@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f5f7fb;
+}
+
+/* Navbar */
+
+.custom-navbar{
+    background:linear-gradient(90deg,#0f172a,#1e3a8a);
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size:1.3rem;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:15px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#facc15 !important;
+}
+
+/* Hero */
+
+.hero{
+    min-height:85vh;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-top:15px;
+}
+
+/* Cards */
+
+.dashboard-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 4px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-10px);
+}
+
+.dashboard-card h3{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+/* Content */
+
+.page-header{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+    padding:60px 0;
+    text-align:center;
+}
+
+.content-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.dashboard-placeholder{
+    height:500px;
+    border:3px dashed #2563eb;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#eef4ff;
+    font-size:24px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+.footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
